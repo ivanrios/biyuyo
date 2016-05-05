@@ -1,0 +1,39 @@
+<ion-view title="Resumen" id="page1">
+    <ion-content padding="true" class="has-header">
+        <div class="list card">
+            <div class="item item-divider">Agregar gasto</div>
+            <div class="item item-body">
+                <form class="list">
+                    <label class="item item-select">
+                        <span class="input-label">Categoría</span>
+                        <select>
+                            <option>Despensa</option>
+                            <option>Comidas</option>
+                            <option>Gasolina</option>
+                        </select>
+                    </label>
+                    <label class="item item-input" name="monto">
+                        <input type="text" placeholder="Monto">
+                    </label>
+                    <button id="resumen-button1" class="button button-positive  button-block">Agregar</button>
+                </form>
+            </div>
+        </div>
+        <div class="list card">
+            <div class="item item-divider">Mayo 2016</div>
+            <div class="item item-body">
+                <ion-list>
+                    <ion-item>Gasolina
+                        <span class="item-note">$1,500 / $2,000</span>
+                    </ion-item>
+                    <ion-item>Despensa
+                        <span class="item-note">$4,000 / $4,000</span>
+                    </ion-item>
+                    <ion-item>Comidas
+                        <span class="item-note">$1,800 / $,2000</span>
+                    </ion-item>
+                </ion-list>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
