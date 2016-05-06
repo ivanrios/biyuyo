@@ -20,11 +20,11 @@ angular.module('app.routes', [])
     }
   })
 
-  .state('menu.categorAs', {
+  .state('menu.categorias', {
     url: '/categorias',
     views: {
       'side-menu21': {
-        templateUrl: 'templates/categorAs.html',
+        templateUrl: 'templates/categorias.html',
         controller: 'categorAsCtrl'
       }
     }
@@ -46,11 +46,11 @@ angular.module('app.routes', [])
     abstract:true
   })
 
-  .state('menu.categorA', {
+  .state('menu.categoria', {
     url: '/categoria',
     views: {
       'side-menu21': {
-        templateUrl: 'templates/categorA.html',
+        templateUrl: 'templates/categoria.html',
         controller: 'categorACtrl'
       }
     }

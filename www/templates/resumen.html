@@ -1,28 +1,14 @@
 <ion-view title="Resumen" id="page1">
-    <ion-content padding="true" class="has-header">
+    <ion-content id="content1" padding="true" class="has-header stable-bg">
+        
+
         <div class="list card">
-            <div class="item item-divider">Agregar gasto</div>
-            <div class="item item-body">
-                <form class="list">
-                    <label class="item item-select">
-                        <span class="input-label">Categoría</span>
-                        <select>
-                            <option>Despensa</option>
-                            <option>Comidas</option>
-                            <option>Gasolina</option>
-                        </select>
-                    </label>
-                    <label class="item item-input" name="monto">
-                        <input type="text" placeholder="Monto">
-                    </label>
-                    <button id="resumen-button1" class="button button-positive  button-block">Agregar</button>
-                </form>
-            </div>
-        </div>
-        <div class="list card">
-            <div class="item item-divider">Mayo 2016</div>
+            <div class="item item-divider calm-bg"><h2>Mayo 2016</h2></div>
             <div class="item item-body">
                 <ion-list>
+                    <ion-item>Renta
+                        <span class="item-note">$4,500 / $4,500</span>
+                    </ion-item>
                     <ion-item>Gasolina
                         <span class="item-note">$1,500 / $2,000</span>
                     </ion-item>
@@ -35,5 +21,10 @@
                 </ion-list>
             </div>
         </div>
+
+        <button ui-sref="menu.categoria" class="button button-assertive button-fab button-fab-bottom-right activated" target-id="content1">
+            <i class="icon ion ion-android-add"></i>
+        </button>
+        
     </ion-content>
 </ion-view>
